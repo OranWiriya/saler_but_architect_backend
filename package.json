@@ -5,7 +5,7 @@
   "version": "0.0.1",
   "scripts": {
     "dev": "bun run api/server.ts",
-    "build": "bun build api/server.ts --outdir=dist --format=cjs"
+    "build": "bun build api/server.ts --outdir=dist"
   },
   "devDependencies": {
     "@types/bun": "latest"
