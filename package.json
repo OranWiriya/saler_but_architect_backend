@@ -1,0 +1,19 @@
+{
+  "name": "saler-but-architect-edition-backend",
+  "module": "api/server.ts",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "bun run api/server.ts",
+    "build": "bun build api/server.ts --outdir=dist --format=cjs"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@google/genai": "^0.10.0"
+  }
+}
