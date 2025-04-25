@@ -1,7 +1,7 @@
 import { GoogleGenAI, Type } from "@google/genai";
 import type { RequestGeminiBody, ResponseDataTransformedType } from "./type";
 
-const ai = new GoogleGenAI({ apiKey: Bun.env.GEMINI_API_KEY });
+const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
 // You can also use the `apiEndpoint` option to specify a different endpoint
 
 const GeminiSubmit = async (req: RequestGeminiBody) => {
